@@ -324,7 +324,7 @@ ul li,
 ol li {
   line-height: 2.4rem;
   font-weight: 300;
-  color: #666;
+  color: #099;
 }
 img,
 pre,
@@ -889,6 +889,7 @@ pre {
 .nav > .list > .item > .link {
   font-size: 1.4rem;
   padding: 20px 10px;
+  color: #099;
 }
 .nav-home {
   margin-top: 40px;
