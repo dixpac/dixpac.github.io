@@ -3,7 +3,7 @@ name: Dino Maric
 bio: 'Working class hero'
 
 # if it's an external image, update below for true
-external-image: true
+external-image: false
 picture: 'assets/images/profile.png'
 
 url: http://dixpac.github.io/
