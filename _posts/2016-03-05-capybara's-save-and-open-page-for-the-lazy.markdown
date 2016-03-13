@@ -5,14 +5,13 @@ date: 2016-03-05 14:00
 tag:
 - testing
 - rails
-star: true
 blog: true
 ---
 
 
-When writting Rails integration tests with capybara, every once
-in a while there is something not working as you wish.
-When misfourtune like that occures, we probablly want to see how our
+When I'm writting Rails integration tests with capybara, every once
+in a while there is something not working as I wish.
+When misfourtune occures, usually I want to see how my
 rendered page looks like **save_and_open_page** to the rescue!
 
 Lets for the moment imagine that we are testing site navigation links.
@@ -35,7 +34,7 @@ end
 After running test, it is **failling**
 
 Hmm....that is strange!
-Lets see what our page looks like, just add save_and_open_page method
+Lets see what my page looks like, just add save_and_open_page method
 call!
 
 {% highlight ruby %}
@@ -51,10 +50,10 @@ describe "Guest sees the about page" do
 end
 {% endhighlight %}
 
-Now capybara will open browser and render our current page.
+Capybara will open browser and render my current page.
 **Sueprise....surprise**, there is no about link rendered.
 
-**Thanks save_and_open_page you just save us a lot of debugging!**
+**Thanks save_and_open_page you just save me a lot of the debugging!**
 
 Only thing that bugs me with save_and_open_page is size of method name,
 I'm just lazy typing it.
@@ -65,7 +64,7 @@ spec/support directory.
 
 {% gist dixpac/20b9e4f90529268b15aa %}
 
-Now we could just type
+Now I could just type
 **page!**
 
 {% highlight ruby %}
