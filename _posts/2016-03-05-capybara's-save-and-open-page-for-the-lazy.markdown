@@ -1,5 +1,5 @@
 ---
-title: "Capybara's save_and_open_page for the lazy!"
+title: "Capybara, save_and_open_page for the lazy!"
 layout: post
 date: 2016-03-05 14:00
 tag:
