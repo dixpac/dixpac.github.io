@@ -138,6 +138,6 @@ If you've read this whole post, I'm sure you have irresistible desire
 to listen to Deep Purple's Strange Kind of Woman.
 
 [Indulge yourself]
-[![Indulge yourself](http://img.youtube.com/vi/bAzjVdD06z8/0.jpg)](http://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
+[![Indulge yourself](http://img.youtube.com/vi/bAzjVdD06z8/0.jpg)](http://www.youtube.com/watch?v=bAzjVdD06z8)
 
 
