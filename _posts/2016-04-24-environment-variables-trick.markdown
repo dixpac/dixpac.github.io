@@ -13,6 +13,7 @@ This was always pain for me because I had to set this through
 terminal (*I always forget process how to do this, so I need to spend
 some time on google to check how to set ENV variables in specific OS*).
 
+
 Recently I came a cross a very sexy technique for setting ENV variables
 in you rails app, and process is quite **trivial**.
 
