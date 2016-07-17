@@ -36,7 +36,7 @@ Let's roll!
 ```ruby
 rails new sampler # create new rails application
 bin/rails g model analysis name value # create analysis model
-bin/rake db:migrat # create the table
+bin/rake db:migrate # create the table
 ```
 
 Now, insert some test data into the analyses table:
@@ -48,7 +48,7 @@ Analysis.create(name: "Blood color", value: "blue")  # watch it vampire!!!
 ```
 
 Since in this fictive application I need ability to figure out if the
-value of Analysis if string or number, I need a way to check if `String`
+value of Analysis is string or number, I need a way to check if `String`
 is valid `Number`. I will open `String` class and add method `is_number?` Which
 will check if string is number (**NOTE:** *not the only and certainly not the
 fastest way to resolve the problem but for the sake of this post, I will do
@@ -89,9 +89,9 @@ end
 
 Why not?
 
-* If two libraries monkey-patch the same method, you won’t be able
-* to tell.
-* If there’s an error, it’ll look like the error happened inside String.
+* If two libraries monkey-patch the same method, you won’t be able to tell.
+* If there’s an error, it’ll look like the error happened inside
+  String(*While technically true, it’s not that helpful*).
 * It’s harder to turn off your monkey patches.
 * If you, say, forgot to require 'string' before running this monkey
   patch, you’ll accidentally redefine `String` instead of patching it.
