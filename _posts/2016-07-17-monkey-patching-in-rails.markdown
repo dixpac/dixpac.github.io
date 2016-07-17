@@ -1,7 +1,7 @@
 ---
 title: "Monkey patching in Rails"
 layout: post
-date: 2016-07-17 13:00
+date: 2016-07-16 13:00
 tag:
 - rails
 - ruby
