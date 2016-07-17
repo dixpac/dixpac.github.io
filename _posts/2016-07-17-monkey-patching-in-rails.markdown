@@ -54,6 +54,7 @@ will check if string is number (**NOTE:** *not the only and certainly not the
 fastest way to resolve the problem but for the sake of this post, I will do
 it*).
 
+
 ```ruby
 class String
   def is_number?
