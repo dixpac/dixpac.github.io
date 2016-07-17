@@ -14,7 +14,7 @@ methods, basically you can do almost anything. But, as we all now from
 the great power comes great responsibility, and putting the power in the
 human hands is usually not so great idea.
 
-![Monkey with a gun](http://dixpac.github.io/assets/images/monkey-gun.png "Monkey patcher")
+![Monkey with a gun](http://dixpac.github.io/assets/images/monkey-gun.jpg "Monkey patcher")
 
 Let's see how to use Monkey Patching in Rails, where to store the code,
 and how to make you life easier in 1 year from now when things stop to
